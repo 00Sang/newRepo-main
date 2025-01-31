@@ -411,7 +411,6 @@ const AdmissionForm = () => {
                 <label className="font-medium text-sm py-1 text-gray-800">
                   Email Id
                 </label>
-                ``
                 <input
                   type="email"
                   name="email"

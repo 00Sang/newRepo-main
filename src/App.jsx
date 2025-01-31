@@ -30,7 +30,8 @@ import ExaminationResults from "./layout/ExaminationResults";
 import ExaminationNews from "./layout/ExaminationNews";
 import SignupPage from "./components/SignupPage";
 import UserTypePage from "./components/UserTypePage";
-import ExistingSignup from "./components/ExistingSignup";
+import ForgotPasswordPage from "./components/ForgetPasswordPage";
+import ResetPasswordPage from "./components/ResetPasswordPage";
 
 
 const App = () => {
@@ -57,7 +58,12 @@ const App = () => {
         <Route path="/examination-news" element={<ExaminationNews/>} />
         <Route path="/signup-page" element={<SignupPage/>} />
         <Route path="/user-type" element={<UserTypePage/>} />
-        <Route path="/existing-signup" element={<ExistingSignup />} />
+        <Route path="/forgotpassword" element={<ForgotPasswordPage/>} />
+        <Route path="/resetpassword/:token" element={<ResetPasswordPage/>} />
+        
+
+
+
 
         {/* Admin Panel Routes (Nested) */}
         <Route path="/admin-panel" element={<AdminPanel />}>

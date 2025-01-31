@@ -39,7 +39,7 @@ const SignupPage = () => {
         setPassword('');
         
         // Redirect to the admission form page
-        navigate('/admission-form');
+        navigate('/login-page');
       }
     } catch (error) {
       setError('An error occurred while trying to register. Please try again.');

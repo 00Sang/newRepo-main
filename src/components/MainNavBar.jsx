@@ -228,7 +228,7 @@ const MainNavBar = () => {
               {/* Apply Now Button */}
               {!isSearchVisible && (
                 <Link
-                  to="/login-page"
+                  to="/signup-page"
                   className="bg-red-600 hidden lg:flex text-white py-2 px-5 text-sm md:text-md lg:px-4 lg:py-2 lg:text-md rounded-md font-medium hover:bg-red-700"
                 >
                   APPLY NOW
